@@ -15,7 +15,10 @@ import mix from 'mix-css';
 
 ...
 
-<div className={mix('text-base p-2', {lg: 'p-4', xs: 'p-8'})}>
+<div className={mix('text-base p-2 m-2', {
+  lg: 'p-4 m-4', 
+  xs: 'p-8 m-8'
+})}>
   Hello World
 </div>
 ```
@@ -23,7 +26,7 @@ import mix from 'mix-css';
 Will result in:
 
 ```tsx 
-<div className="text-base p-2 lg:p-4 xs:p-8">
+<div className="text-base p-2 m-2 lg:p-4 lg:m-4 xs:p-8 xs:m-8">
   Hello World
 </div>
 ````
