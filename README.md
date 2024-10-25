@@ -17,7 +17,7 @@ import mix from 'mix-css';
 
 <div className={mix('text-base p-2 m-2', {
   lg: 'p-4 m-4', 
-  xs: 'p-8 m-8'
+  xl: 'p-8 m-8'
 })}>
   Hello World
 </div>

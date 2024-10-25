@@ -1,6 +1,6 @@
 {
   "name": "mix-css",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple utility to make responsive with utility class short",
   "main": "index.ts",
   "scripts": {
