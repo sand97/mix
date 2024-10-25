@@ -1,6 +1,6 @@
 {
-  "name": "mix",
-  "version": "0.0.1",
+  "name": "mix-css",
+  "version": "0.0.2",
   "description": "A simple utility to make responsive with utility class short",
   "main": "index.ts",
   "scripts": {
@@ -11,7 +11,8 @@
     "responsive"
   ],
   "author": "Bruce Guenkam",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "https://github.com/sand97/mix.git",
   "devDependencies": {
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-typescript": "^7.26.0",
